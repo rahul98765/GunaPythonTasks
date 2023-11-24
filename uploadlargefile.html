@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Large File Upload </title>
+	<style>
+	.ok{
+		
+		font-size: 20px;
+	}
+	.op{
+		font-size: 20px;
+		margin-left: -70px;
+		font-weight: bold;
+		background-color: yellow;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+		
+	
+	</style>
+</head>
+<body>
+	<div class="center">
+		<h1> Uploading large excel File to Database </h1>
+		<form method="POST" action="/" enctype="multipart/form-data">
+			<input class="ok" type="file" name="file">
+			<button class="op">Submit</button>
+		</form>
+	</div>
+	
+</body>
+</html>
